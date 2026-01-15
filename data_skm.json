@@ -1,0 +1,12 @@
+[
+    {
+        "bank": "臺虎",
+        "threshold": 888,
+        "reward": "2入"
+    },
+    {
+        "bank": "貴賓卡",
+        "threshold": 1000,
+        "reward": 100
+    }
+]

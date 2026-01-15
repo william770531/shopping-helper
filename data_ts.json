@@ -1,0 +1,337 @@
+[
+    {
+        "bank": "全館",
+        "threshold": 5000,
+        "reward": 500
+    },
+    {
+        "bank": "全館",
+        "threshold": 10000,
+        "reward": 1000
+    },
+    {
+        "bank": "聯名卡",
+        "threshold": 8000,
+        "reward": 200
+    },
+    {
+        "bank": "聯名卡",
+        "threshold": 20000,
+        "reward": 500
+    },
+    {
+        "bank": "聯名卡",
+        "threshold": 30000,
+        "reward": 900
+    },
+    {
+        "bank": "聯名卡",
+        "threshold": 6000,
+        "reward": 100
+    },
+    {
+        "bank": "聯名卡",
+        "threshold": 18000,
+        "reward": 300
+    },
+    {
+        "bank": "聯名卡",
+        "threshold": 27000,
+        "reward": 600
+    },
+    {
+        "bank": "玉山銀行",
+        "threshold": 13000,
+        "reward": 200
+    },
+    {
+        "bank": "玉山銀行",
+        "threshold": 20000,
+        "reward": 300
+    },
+    {
+        "bank": "玉山銀行",
+        "threshold": 55000,
+        "reward": 900
+    },
+    {
+        "bank": "星展銀行",
+        "threshold": 6000,
+        "reward": 100
+    },
+    {
+        "bank": "星展銀行",
+        "threshold": 15000,
+        "reward": 300
+    },
+    {
+        "bank": "星展銀行",
+        "threshold": 30000,
+        "reward": 700
+    },
+    {
+        "bank": "星展銀行",
+        "threshold": 60000,
+        "reward": 1500
+    },
+    {
+        "bank": "中華郵政",
+        "threshold": 2500,
+        "reward": null
+    },
+    {
+        "bank": "中華郵政",
+        "threshold": 6000,
+        "reward": 110
+    },
+    {
+        "bank": "中華郵政",
+        "threshold": 10000,
+        "reward": null
+    },
+    {
+        "bank": "華南銀行",
+        "threshold": 6000,
+        "reward": 100
+    },
+    {
+        "bank": "華南銀行",
+        "threshold": 20000,
+        "reward": 300
+    },
+    {
+        "bank": "華南銀行",
+        "threshold": 50000,
+        "reward": 1000
+    },
+    {
+        "bank": "台新銀行",
+        "threshold": 6800,
+        "reward": null
+    },
+    {
+        "bank": "台新銀行",
+        "threshold": 20000,
+        "reward": null
+    },
+    {
+        "bank": "台新銀行",
+        "threshold": 32000,
+        "reward": null
+    },
+    {
+        "bank": "匯豐",
+        "threshold": 18000,
+        "reward": 300
+    },
+    {
+        "bank": "匯豐",
+        "threshold": 38000,
+        "reward": 700
+    },
+    {
+        "bank": "匯豐",
+        "threshold": 68000,
+        "reward": 1300
+    },
+    {
+        "bank": "陽信銀行",
+        "threshold": 6500,
+        "reward": 100
+    },
+    {
+        "bank": "陽信銀行",
+        "threshold": 22000,
+        "reward": 400
+    },
+    {
+        "bank": "陽信銀行",
+        "threshold": 32000,
+        "reward": 600
+    },
+    {
+        "bank": "陽信銀行",
+        "threshold": 45000,
+        "reward": 900
+    },
+    {
+        "bank": "永豐銀行",
+        "threshold": 6500,
+        "reward": 100
+    },
+    {
+        "bank": "永豐銀行",
+        "threshold": 22000,
+        "reward": 400
+    },
+    {
+        "bank": "永豐銀行",
+        "threshold": 32000,
+        "reward": 600
+    },
+    {
+        "bank": "永豐銀行",
+        "threshold": 45000,
+        "reward": 900
+    },
+    {
+        "bank": "第一銀行",
+        "threshold": 6500,
+        "reward": 100
+    },
+    {
+        "bank": "第一銀行",
+        "threshold": 20000,
+        "reward": 300
+    },
+    {
+        "bank": "第一銀行",
+        "threshold": 60000,
+        "reward": 1000
+    },
+    {
+        "bank": "第一銀行",
+        "threshold": 10000,
+        "reward": 100
+    },
+    {
+        "bank": "臺灣銀行",
+        "threshold": 6000,
+        "reward": 100
+    },
+    {
+        "bank": "兆豐銀行",
+        "threshold": 6500,
+        "reward": 100
+    },
+    {
+        "bank": "兆豐銀行",
+        "threshold": 20000,
+        "reward": 300
+    },
+    {
+        "bank": "兆豐銀行",
+        "threshold": 16000,
+        "reward": 300
+    },
+    {
+        "bank": "元大銀行",
+        "threshold": 6000,
+        "reward": 100
+    },
+    {
+        "bank": "聯邦銀行",
+        "threshold": 11000,
+        "reward": 200
+    },
+    {
+        "bank": "聯邦銀行",
+        "threshold": 25000,
+        "reward": 300
+    },
+    {
+        "bank": "聯邦銀行",
+        "threshold": 55000,
+        "reward": 900
+    },
+    {
+        "bank": "聯邦銀行",
+        "threshold": 100000,
+        "reward": 2000
+    },
+    {
+        "bank": "DIOR",
+        "threshold": 6500,
+        "reward": "迪奧幸運星服紅包袋(8入)"
+    },
+    {
+        "bank": "FUJI",
+        "threshold": 5000,
+        "reward": 500
+    },
+    {
+        "bank": "居家電",
+        "threshold": 5000,
+        "reward": 500
+    },
+    {
+        "bank": "PHILIPS",
+        "threshold": 6000,
+        "reward": 500
+    },
+    {
+        "bank": "FUJI 按摩椅",
+        "threshold": 5000,
+        "reward": 500
+    },
+    {
+        "bank": "A1+A2館B1及4F居家/親子指定",
+        "threshold": 5000,
+        "reward": 5000
+    },
+    {
+        "bank": "L'OCCITANE",
+        "threshold": 4500,
+        "reward": "種花淡香水7.5ml+櫻花護手霜10ml"
+    },
+    {
+        "bank": "Lucy's",
+        "threshold": 690,
+        "reward": 10
+    },
+    {
+        "bank": "MODERN GIRL",
+        "threshold": 3800,
+        "reward": 500
+    },
+    {
+        "bank": "MODERN GIRL",
+        "threshold": 5000,
+        "reward": 700
+    },
+    {
+        "bank": "OKASANG",
+        "threshold": 10000,
+        "reward": "95折"
+    },
+    {
+        "bank": "全館",
+        "threshold": 5000,
+        "reward": 500
+    },
+    {
+        "bank": "Mia C'bon",
+        "threshold": 1000,
+        "reward": 100
+    },
+    {
+        "bank": "思薇爾",
+        "threshold": 3888,
+        "reward": 500
+    },
+    {
+        "bank": "全館",
+        "threshold": 5000,
+        "reward": 500
+    },
+    {
+        "bank": "格蕾寢飾",
+        "threshold": 1000,
+        "reward": 50
+    },
+    {
+        "bank": "Mia C'bon",
+        "threshold": 1000,
+        "reward": 100
+    },
+    {
+        "bank": "思薇爾",
+        "threshold": 3888,
+        "reward": 500
+    },
+    {
+        "bank": "MODERN GIRL",
+        "threshold": 3800,
+        "reward": 500
+    }
+]

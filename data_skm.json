@@ -1,127 +1,110 @@
 [
     {
-        "bank": "新光三越名卡",
-        "threshold": 3000,
-        "reward": 2000
-    },
-    {
-        "bank": "指定銀行卡",
-        "threshold": 5000,
-        "reward": 2000
-    },
-    {
-        "bank": "指定銀行卡",
-        "threshold": 60000,
-        "reward": 30000
-    },
-    {
-        "bank": "指定銀行卡",
-        "threshold": 12000,
-        "reward": 5000
-    },
-    {
-        "bank": "指定銀行卡",
-        "threshold": 150000,
-        "reward": 60000
-    },
-    {
-        "bank": "指定銀行卡",
-        "threshold": 5000,
-        "reward": 2000
-    },
-    {
-        "bank": "指定銀行卡",
-        "threshold": 60000,
-        "reward": 30000
-    },
-    {
-        "bank": "指定銀行卡",
-        "threshold": 10000,
-        "reward": 4000
-    },
-    {
-        "bank": "指定銀行卡",
-        "threshold": 150000,
-        "reward": 60000
-    },
-    {
-        "bank": "新光/銀行",
+        "bank": "新光三越各卡不同",
         "threshold": 8000,
-        "reward": 2000
+        "reward": 200,
+        "feedback_rate": 2.5
     },
     {
-        "bank": "11大銀行",
-        "threshold": 8000,
-        "reward": 1500
-    },
-    {
-        "bank": "台新/新光/銀行",
+        "bank": "新光三越各卡不同",
         "threshold": 30000,
-        "reward": 5000
+        "reward": 800,
+        "feedback_rate": 2.7
     },
     {
-        "bank": "台新/新光/銀行",
+        "bank": "新光三越各卡不同",
+        "threshold": 5000,
+        "reward": 100,
+        "feedback_rate": 2.0
+    },
+    {
+        "bank": "台新銀行",
+        "threshold": 8000,
+        "reward": 1500,
+        "feedback_rate": 18.8
+    },
+    {
+        "bank": "台新銀行",
         "threshold": 100000,
-        "reward": 15000
+        "reward": 15000,
+        "feedback_rate": 15.0
     },
     {
-        "bank": "SKM Pay",
-        "threshold": 5000,
-        "reward": 2000
-    },
-    {
-        "bank": "SKM Pay",
-        "threshold": 5000,
-        "reward": 2000
-    },
-    {
-        "bank": "SKM Pay",
-        "threshold": 10000,
-        "reward": 4000
-    },
-    {
-        "bank": "SKM Pay",
-        "threshold": 3000,
-        "reward": 1500
-    },
-    {
-        "bank": "SKM Pay",
-        "threshold": 12000,
-        "reward": 3000
-    },
-    {
-        "bank": "SKM Pay",
+        "bank": "台新銀行",
         "threshold": 30000,
-        "reward": 9000
+        "reward": 5000,
+        "feedback_rate": 16.7
     },
     {
-        "bank": "SKM Pay",
-        "threshold": 50000,
-        "reward": 15000
+        "bank": "台新銀行",
+        "threshold": 100000,
+        "reward": 15000,
+        "feedback_rate": 15.0
     },
     {
-        "bank": "SKM Pay",
+        "bank": "遠東銀行",
+        "threshold": 5000,
+        "reward": 1000,
+        "feedback_rate": 20.0
+    },
+    {
+        "bank": "遠東銀行",
         "threshold": 10000,
-        "reward": 4000
+        "reward": 2000,
+        "feedback_rate": 20.0
     },
     {
-        "bank": "SKM Pay",
+        "bank": "遠東銀行",
+        "threshold": 5000,
+        "reward": 2000,
+        "feedback_rate": 40.0
+    },
+    {
+        "bank": "遠東銀行",
+        "threshold": 10000,
+        "reward": 4000,
+        "feedback_rate": 40.0
+    },
+    {
+        "bank": "第一銀行",
+        "threshold": 3000,
+        "reward": 1500,
+        "feedback_rate": 50.0
+    },
+    {
+        "bank": "第一銀行",
+        "threshold": 12000,
+        "reward": 3000,
+        "feedback_rate": 25.0
+    },
+    {
+        "bank": "華南銀行",
+        "threshold": 3000,
+        "reward": 1500,
+        "feedback_rate": 50.0
+    },
+    {
+        "bank": "華南銀行",
         "threshold": 50000,
-        "reward": 20000
+        "reward": 15000,
+        "feedback_rate": 30.0
     },
     {
-        "bank": "SKM Pay",
+        "bank": "兆豐銀行",
         "threshold": 3000,
-        "reward": 1500
+        "reward": 900,
+        "feedback_rate": 30.0
     },
     {
-        "bank": "3",
-        "threshold": 3000,
-        "reward": 100
+        "bank": "兆豐銀行",
+        "threshold": 30000,
+        "reward": 9000,
+        "feedback_rate": 30.0
     },
     {
-        "bank": "3",
-        "threshold": 6000,
-        "reward": 300
+        "bank": "新光三越聯名卡",
+        "threshold": 5000,
+        "reward": 200,
+        "feedback_rate": 4.0
     }
 ]

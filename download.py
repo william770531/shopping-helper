@@ -63,23 +63,22 @@ def process_single_dm(url, folder_title):
             # 截圖
             driver.save_screenshot(current_filename)
             print(f"   - 已儲存第 {page} 頁")
-
-            # 👇👇👇 [新增] 限制只抓前 3 頁 👇👇👇
-            if page >= 3:
-                print("⚡ 策略優化：只抓前 3 頁重點，停止抓圖。")
-                break
-            # 👆👆👆 [結束] 👆👆👆
             
+            # 👇👇👇 策略優化：只抓前 3 頁 👇👇👇
+            if page >= 3:
+                print("⚡ 策略優化：已達 3 頁上限，停止抓圖。")
+                break
+            # 👆👆👆 ----------------------- 👆👆👆
+
             # --- 檢查重複 (判斷是否到底) ---
             if page > 1:
                 prev_filename = f"{folder_name}/page_{page-1:03d}.png"
                 try:
                     with open(current_filename, 'rb') as f1, open(prev_filename, 'rb') as f2:
-                        # 如果這頁跟上一頁的檔案內容完全一樣，代表翻不過去了
                         if f1.read() == f2.read():
                             print(f"✅ [完成] 發現重複頁面，判斷已結束。")
                             f1.close(); f2.close()
-                            os.remove(current_filename) # 刪除重複的最後一張
+                            os.remove(current_filename) 
                             break
                 except: pass
             
@@ -89,7 +88,6 @@ def process_single_dm(url, folder_title):
             except: 
                 print("⚠️ 翻頁失敗")
             
-            # 等待翻頁動畫完成
             time.sleep(2.5)
 
     except Exception as e:

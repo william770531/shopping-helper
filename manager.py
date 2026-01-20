@@ -18,11 +18,11 @@ STORE_MAP = {
     }
 }
 
-# 👇👇👇 修正這裡：設定為實際產出的檔名 "final_data.json" 👇👇👇
+# 設定 analyze.py 產出的實際檔名
 GENERATED_FILE_NAME = "final_data.json"
 
 def main():
-    print("=== 🛍️  百貨 DM 全自動更新機器人 (最終修正版) ===")
+    print("=== 🛍️  百貨 DM 全自動更新機器人 (全自動參數版) ===")
     print("1. 南紡購物中心")
     print("2. 新光三越")
     
@@ -45,7 +45,7 @@ def main():
         print(f"🧹 清理舊的 {dl_folder} 資料夾...")
         shutil.rmtree(dl_folder)
 
-    print(f"\n⬇️  [1/3] 正在啟動抓圖... (請依 download.py 提示操作)")
+    print(f"\n⬇️  [1/3] 正在啟動抓圖... (只抓前3頁)")
     os.system("python3 download.py")
     
     # 檢查目標資料夾是否有東西
@@ -56,18 +56,19 @@ def main():
         print(f"✅ 圖片檢查 OK！資料夾：{dl_folder}")
 
     # ------------------------------------------------
-    # 2. 分析
+    # 2. 分析 (自動傳參數)
     # ------------------------------------------------
     print(f"\n🧠 [2/3] 正在啟動 AI 分析...")
-    print(f"👉 請在彈出的視窗中，選擇這個資料夾：【 {dl_folder} 】")
+    print(f"👉 系統自動鎖定資料夾：【 {dl_folder} 】，正在傳送給 AI...")
     
-    # 清理舊的產出檔，避免誤抓
+    # 清理舊的產出檔
     if os.path.exists(GENERATED_FILE_NAME):
         os.remove(GENERATED_FILE_NAME)
 
-    os.system("python3 analyze.py")
+    # 🔥 關鍵修改：將資料夾名稱透過指令傳給 analyze.py
+    os.system(f'python3 analyze.py "{dl_folder}"')
 
-    # 檢查是否產生結果 (這次檔名對了，應該就會抓到了)
+    # 檢查是否產生結果
     if not os.path.exists(GENERATED_FILE_NAME):
         print(f"❌ 分析失敗，找不到產出檔案 '{GENERATED_FILE_NAME}'")
         return

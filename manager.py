@@ -91,7 +91,7 @@ def main():
         ask_run = input("\n🚀 是否要立即啟動網頁查看結果？(輸入 y 啟動，按其他鍵退出): ").strip().lower()
         if ask_run == 'y':
             print("正在啟動 Streamlit... (按 Ctrl+C 可停止)")
-            os.system("python -m streamlit run app.py")
+            os.system("python3 -m streamlit run app.py")
         # 👆👆👆 --------------------------- 👆👆👆
     else:
         print("⚠️ 上傳失敗，請檢查網路或 GitHub 權限。")

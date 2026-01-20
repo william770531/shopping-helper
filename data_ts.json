@@ -1,62 +1,56 @@
 [
     {
-        "bank": "新光三越聯名卡",
-        "threshold": 13000,
-        "reward": 300,
-        "feedback_rate": 2.3
-    },
-    {
-        "bank": "聯名卡",
-        "threshold": 8000,
-        "reward": 200,
-        "feedback_rate": 2.5
-    },
-    {
-        "bank": "聯名卡",
-        "threshold": 20000,
-        "reward": 500,
-        "feedback_rate": 2.5
-    },
-    {
-        "bank": "聯名卡",
-        "threshold": 30000,
-        "reward": 900,
-        "feedback_rate": 3.0
-    },
-    {
-        "bank": "聯名卡",
-        "threshold": 6000,
-        "reward": 100,
-        "feedback_rate": 1.7
-    },
-    {
-        "bank": "聯名卡",
-        "threshold": 18000,
-        "reward": 300,
-        "feedback_rate": 1.7
-    },
-    {
-        "bank": "聯名卡",
-        "threshold": 27000,
-        "reward": 600,
-        "feedback_rate": 2.2
-    },
-    {
-        "bank": "聯名卡",
-        "threshold": 35000,
-        "reward": 800,
-        "feedback_rate": 2.3
-    },
-    {
-        "bank": "聯名卡",
-        "threshold": 50000,
-        "reward": 1400,
-        "feedback_rate": 2.8
-    },
-    {
         "bank": "玉山銀行",
-        "threshold": 2500,
-        "reward": 150,
-        "feedback_rate": 6.0
+        "threshold": 5000,
+        "reward": 100,
+        "feedback_rate": 2.0
+    },
+    {
+        "bank": "台新銀行",
+        "threshold": 5000,
+        "reward": 100,
+        "feedback_rate": 2.0
+    },
+    {
+        "bank": "中國信託銀行",
+        "threshold": 5000,
+        "reward": 100,
+        "feedback_rate": 2.0
+    },
+    {
+        "bank": "第一銀行",
+        "threshold": 5000,
+        "reward": 100,
+        "feedback_rate": 2.0
+    },
+    {
+        "bank": "聯邦銀行",
+        "threshold": 5000,
+        "reward": 100,
+        "feedback_rate": 2.0
+    },
+    {
+        "bank": "花旗銀行",
+        "threshold": 5000,
+        "reward": 100,
+        "feedback_rate": 2.0
+    },
+    {
+        "bank": "臺灣銀行",
+        "threshold": 5000,
+        "reward": 100,
+        "feedback_rate": 2.0
+    },
+    {
+        "bank": "華南銀行",
+        "threshold": 5000,
+        "reward": 100,
+        "feedback_rate": 2.0
+    },
+    {
+        "bank": "滙豐銀行",
+        "threshold": 5000,
+        "reward": 100,
+        "feedback_rate": 2.0
     }
 ]

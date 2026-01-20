@@ -3,54 +3,70 @@
         "bank": "玉山銀行",
         "threshold": 5000,
         "reward": 100,
-        "feedback_rate": 2.0
+        "feedback_rate": 2.0,
+        "end_date": "2026-02-25"
     },
     {
-        "bank": "台新銀行",
+        "bank": "星展銀行DBS",
         "threshold": 5000,
         "reward": 100,
-        "feedback_rate": 2.0
+        "feedback_rate": 2.0,
+        "end_date": "2026-02-25"
     },
     {
-        "bank": "中國信託銀行",
+        "bank": "國泰世華",
         "threshold": 5000,
         "reward": 100,
-        "feedback_rate": 2.0
+        "feedback_rate": 2.0,
+        "end_date": "2026-02-25"
+    },
+    {
+        "bank": "中國信託",
+        "threshold": 5000,
+        "reward": 100,
+        "feedback_rate": 2.0,
+        "end_date": "2026-02-25"
+    },
+    {
+        "bank": "滙豐銀行HSBC",
+        "threshold": 5000,
+        "reward": 100,
+        "feedback_rate": 2.0,
+        "end_date": "2026-02-25"
     },
     {
         "bank": "第一銀行",
         "threshold": 5000,
         "reward": 100,
-        "feedback_rate": 2.0
+        "feedback_rate": 2.0,
+        "end_date": "2026-02-25"
     },
     {
         "bank": "聯邦銀行",
         "threshold": 5000,
         "reward": 100,
-        "feedback_rate": 2.0
+        "feedback_rate": 2.0,
+        "end_date": "2026-02-25"
     },
     {
-        "bank": "花旗銀行",
+        "bank": "元大銀行",
         "threshold": 5000,
         "reward": 100,
-        "feedback_rate": 2.0
+        "feedback_rate": 2.0,
+        "end_date": "2026-02-25"
     },
     {
-        "bank": "臺灣銀行",
+        "bank": "永豐銀行",
         "threshold": 5000,
         "reward": 100,
-        "feedback_rate": 2.0
+        "feedback_rate": 2.0,
+        "end_date": "2026-02-25"
     },
     {
-        "bank": "華南銀行",
+        "bank": "合作金庫銀行",
         "threshold": 5000,
         "reward": 100,
-        "feedback_rate": 2.0
-    },
-    {
-        "bank": "滙豐銀行",
-        "threshold": 5000,
-        "reward": 100,
-        "feedback_rate": 2.0
+        "feedback_rate": 2.0,
+        "end_date": "2026-02-25"
     }
 ]

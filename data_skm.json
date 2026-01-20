@@ -1,110 +1,80 @@
 [
     {
-        "bank": "新光三越各卡不同",
+        "bank": "新光三越各家銀行",
         "threshold": 8000,
         "reward": 200,
         "feedback_rate": 2.5
     },
     {
-        "bank": "新光三越各卡不同",
-        "threshold": 30000,
-        "reward": 800,
-        "feedback_rate": 2.7
+        "bank": "新光三越各家銀行",
+        "threshold": 20000,
+        "reward": 300,
+        "feedback_rate": 1.5
     },
     {
-        "bank": "新光三越各卡不同",
+        "bank": "新光三越各家銀行",
         "threshold": 5000,
         "reward": 100,
         "feedback_rate": 2.0
     },
     {
-        "bank": "台新銀行",
+        "bank": "11大銀行加碼",
         "threshold": 8000,
         "reward": 1500,
         "feedback_rate": 18.8
     },
     {
-        "bank": "台新銀行",
+        "bank": "11大銀行加碼",
         "threshold": 100000,
         "reward": 15000,
         "feedback_rate": 15.0
     },
     {
         "bank": "台新銀行",
-        "threshold": 30000,
-        "reward": 5000,
-        "feedback_rate": 16.7
+        "threshold": 5000,
+        "reward": 200,
+        "feedback_rate": 4.0
     },
     {
         "bank": "台新銀行",
-        "threshold": 100000,
-        "reward": 15000,
-        "feedback_rate": 15.0
+        "threshold": 2000,
+        "reward": 100,
+        "feedback_rate": 5.0
     },
     {
-        "bank": "遠東銀行",
-        "threshold": 5000,
-        "reward": 1000,
-        "feedback_rate": 20.0
-    },
-    {
-        "bank": "遠東銀行",
+        "bank": "台新銀行",
         "threshold": 10000,
-        "reward": 2000,
-        "feedback_rate": 20.0
+        "reward": 400,
+        "feedback_rate": 4.0
     },
     {
-        "bank": "遠東銀行",
-        "threshold": 5000,
-        "reward": 2000,
-        "feedback_rate": 40.0
-    },
-    {
-        "bank": "遠東銀行",
-        "threshold": 10000,
-        "reward": 4000,
-        "feedback_rate": 40.0
-    },
-    {
-        "bank": "第一銀行",
+        "bank": "台新銀行",
         "threshold": 3000,
-        "reward": 1500,
-        "feedback_rate": 50.0
+        "reward": 150,
+        "feedback_rate": 5.0
     },
     {
-        "bank": "第一銀行",
+        "bank": "台新銀行",
         "threshold": 12000,
         "reward": 3000,
         "feedback_rate": 25.0
     },
     {
-        "bank": "華南銀行",
+        "bank": "台新銀行",
         "threshold": 3000,
         "reward": 1500,
         "feedback_rate": 50.0
     },
     {
-        "bank": "華南銀行",
+        "bank": "台新銀行",
         "threshold": 50000,
-        "reward": 15000,
-        "feedback_rate": 30.0
+        "reward": 20000,
+        "feedback_rate": 40.0
     },
     {
-        "bank": "兆豐銀行",
-        "threshold": 3000,
-        "reward": 900,
-        "feedback_rate": 30.0
-    },
-    {
-        "bank": "兆豐銀行",
+        "bank": "台新銀行",
         "threshold": 30000,
         "reward": 9000,
         "feedback_rate": 30.0
-    },
-    {
-        "bank": "新光三越聯名卡",
-        "threshold": 5000,
-        "reward": 200,
-        "feedback_rate": 4.0
     }
 ]

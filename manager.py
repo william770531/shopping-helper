@@ -8,21 +8,20 @@ import time
 STORE_MAP = {
     "1": {
         "name": "南紡購物中心",
-        "dl_folder": "Download_TSMALL",  # 南紡專用資料夾
+        "dl_folder": "Download_TSMALL",
         "json": "data_ts.json"
     },
     "2": {
         "name": "新光三越",
-        "dl_folder": "Download_SKM",     # 新光專用資料夾
+        "dl_folder": "Download_SKM",
         "json": "data_skm.json"
     }
 }
 
-# 設定 analyze.py 產出的實際檔名
 GENERATED_FILE_NAME = "final_data.json"
 
 def main():
-    print("=== 🛍️  百貨 DM 全自動更新機器人 (全自動參數版) ===")
+    print("=== 🛍️  百貨 DM 全自動更新機器人 (含網頁啟動版) ===")
     print("1. 南紡購物中心")
     print("2. 新光三越")
     
@@ -40,7 +39,6 @@ def main():
     # ------------------------------------------------
     dl_folder = target['dl_folder']
 
-    # 只清理「目前要更新」的那間百貨的舊圖片
     if os.path.exists(dl_folder):
         print(f"🧹 清理舊的 {dl_folder} 資料夾...")
         shutil.rmtree(dl_folder)
@@ -48,7 +46,6 @@ def main():
     print(f"\n⬇️  [1/3] 正在啟動抓圖... (只抓前3頁)")
     os.system("python3 download.py")
     
-    # 檢查目標資料夾是否有東西
     if not os.path.exists(dl_folder) or not os.listdir(dl_folder):
         print(f"⚠️  未發現圖片！請確認 download.py 是否成功下載至 {dl_folder}")
         return
@@ -61,14 +58,11 @@ def main():
     print(f"\n🧠 [2/3] 正在啟動 AI 分析...")
     print(f"👉 系統自動鎖定資料夾：【 {dl_folder} 】，正在傳送給 AI...")
     
-    # 清理舊的產出檔
     if os.path.exists(GENERATED_FILE_NAME):
         os.remove(GENERATED_FILE_NAME)
 
-    # 🔥 關鍵修改：將資料夾名稱透過指令傳給 analyze.py
     os.system(f'python3 analyze.py "{dl_folder}"')
 
-    # 檢查是否產生結果
     if not os.path.exists(GENERATED_FILE_NAME):
         print(f"❌ 分析失敗，找不到產出檔案 '{GENERATED_FILE_NAME}'")
         return
@@ -92,6 +86,13 @@ def main():
     
     if push_result == 0:
         print("\n🎉🎉🎉 成功！手機版已同步更新！ 🎉🎉🎉")
+        
+        # 👇👇👇 新增功能：詢問是否啟動網站 👇👇👇
+        ask_run = input("\n🚀 是否要立即啟動網頁查看結果？(輸入 y 啟動，按其他鍵退出): ").strip().lower()
+        if ask_run == 'y':
+            print("正在啟動 Streamlit... (按 Ctrl+C 可停止)")
+            os.system("python -m streamlit run app.py")
+        # 👆👆👆 --------------------------- 👆👆👆
     else:
         print("⚠️ 上傳失敗，請檢查網路或 GitHub 權限。")
 

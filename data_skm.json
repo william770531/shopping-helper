@@ -1,0 +1,127 @@
+[
+    {
+        "bank": "新光三越名卡",
+        "threshold": 3000,
+        "reward": 2000
+    },
+    {
+        "bank": "指定銀行卡",
+        "threshold": 5000,
+        "reward": 2000
+    },
+    {
+        "bank": "指定銀行卡",
+        "threshold": 60000,
+        "reward": 30000
+    },
+    {
+        "bank": "指定銀行卡",
+        "threshold": 12000,
+        "reward": 5000
+    },
+    {
+        "bank": "指定銀行卡",
+        "threshold": 150000,
+        "reward": 60000
+    },
+    {
+        "bank": "指定銀行卡",
+        "threshold": 5000,
+        "reward": 2000
+    },
+    {
+        "bank": "指定銀行卡",
+        "threshold": 60000,
+        "reward": 30000
+    },
+    {
+        "bank": "指定銀行卡",
+        "threshold": 10000,
+        "reward": 4000
+    },
+    {
+        "bank": "指定銀行卡",
+        "threshold": 150000,
+        "reward": 60000
+    },
+    {
+        "bank": "新光/銀行",
+        "threshold": 8000,
+        "reward": 2000
+    },
+    {
+        "bank": "11大銀行",
+        "threshold": 8000,
+        "reward": 1500
+    },
+    {
+        "bank": "台新/新光/銀行",
+        "threshold": 30000,
+        "reward": 5000
+    },
+    {
+        "bank": "台新/新光/銀行",
+        "threshold": 100000,
+        "reward": 15000
+    },
+    {
+        "bank": "SKM Pay",
+        "threshold": 5000,
+        "reward": 2000
+    },
+    {
+        "bank": "SKM Pay",
+        "threshold": 5000,
+        "reward": 2000
+    },
+    {
+        "bank": "SKM Pay",
+        "threshold": 10000,
+        "reward": 4000
+    },
+    {
+        "bank": "SKM Pay",
+        "threshold": 3000,
+        "reward": 1500
+    },
+    {
+        "bank": "SKM Pay",
+        "threshold": 12000,
+        "reward": 3000
+    },
+    {
+        "bank": "SKM Pay",
+        "threshold": 30000,
+        "reward": 9000
+    },
+    {
+        "bank": "SKM Pay",
+        "threshold": 50000,
+        "reward": 15000
+    },
+    {
+        "bank": "SKM Pay",
+        "threshold": 10000,
+        "reward": 4000
+    },
+    {
+        "bank": "SKM Pay",
+        "threshold": 50000,
+        "reward": 20000
+    },
+    {
+        "bank": "SKM Pay",
+        "threshold": 3000,
+        "reward": 1500
+    },
+    {
+        "bank": "3",
+        "threshold": 3000,
+        "reward": 100
+    },
+    {
+        "bank": "3",
+        "threshold": 6000,
+        "reward": 300
+    }
+]
